@@ -42,7 +42,7 @@ export interface Shape {
 /**
  * Representa un círculo.
  * 
- * @implements Shape
+ *
  * @class
  * 
  */
@@ -66,7 +66,7 @@ export class Circle implements Shape {
 /**
  * Representa un rectángulo.
  * 
- * @implements Shape
+ *
  * @class
  * 
  */
@@ -91,7 +91,7 @@ export class Rectangle implements Shape {
 /**
  * Representa un triángulo.
  * 
- * @implements Shape
+ *
  * @class
  * 
  */
