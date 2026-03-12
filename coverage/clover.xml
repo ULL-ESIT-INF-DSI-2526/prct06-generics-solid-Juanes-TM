@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1773296474226" clover="3.2.0">
+  <project timestamp="1773296474226" name="All files">
+    <metrics statements="28" coveredstatements="28" conditionals="2" coveredconditionals="1" methods="30" coveredmethods="30" elements="60" coveredelements="59" complexity="0" loc="28" ncloc="28" packages="3" files="6" classes="6"/>
+    <package name="ejercicio-1">
+      <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="1" methods="19" coveredmethods="19"/>
+      <file name="BasicGalacticCollection.ts" path="/home/usuario/practicas/prct06-generics-solid-Juanes-TM/src/ejercicio-1/BasicGalacticCollection.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="1" methods="13" coveredmethods="13"/>
+        <line num="13" count="19" type="stmt"/>
+        <line num="16" count="34" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="33" count="6" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="42" count="7" type="stmt"/>
+        <line num="47" count="5" type="stmt"/>
+        <line num="48" count="12" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="64" count="3" type="stmt"/>
+      </file>
+      <file name="HolocronCollection.ts" path="/home/usuario/practicas/prct06-generics-solid-Juanes-TM/src/ejercicio-1/HolocronCollection.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="21" count="10" type="stmt"/>
+      </file>
+      <file name="JediMasterCollection.ts" path="/home/usuario/practicas/prct06-generics-solid-Juanes-TM/src/ejercicio-1/JediMasterCollection.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="22" count="9" type="stmt"/>
+      </file>
+      <file name="StarshipCollection.ts" path="/home/usuario/practicas/prct06-generics-solid-Juanes-TM/src/ejercicio-1/StarshipCollection.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="21" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="ejercicio-3">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <file name="FormasGeometricas.ts" path="/home/usuario/practicas/prct06-generics-solid-Juanes-TM/src/ejercicio-3/FormasGeometricas.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+        <line num="55" count="8" type="stmt"/>
+        <line num="62" count="6" type="stmt"/>
+        <line num="80" count="9" type="stmt"/>
+        <line num="87" count="7" type="stmt"/>
+        <line num="105" count="9" type="stmt"/>
+        <line num="112" count="7" type="stmt"/>
+        <line num="137" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="ejercicio-4">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="MaterialOficina.ts" path="/home/usuario/practicas/prct06-generics-solid-Juanes-TM/src/ejercicio-4/MaterialOficina.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="74" count="3" type="stmt"/>
+        <line num="85" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

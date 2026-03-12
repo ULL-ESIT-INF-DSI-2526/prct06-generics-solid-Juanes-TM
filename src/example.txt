@@ -1,0 +1,80 @@
+/*
+
+export class Jedi {
+  private constructor(
+    public name: string,
+    public rank: JediRank
+  ) {} // Constructor privado
+
+  // Factory method que puede retornar undefined
+  static create(name: string, rank: string): Jedi | undefined {
+    // Validación
+    if (!isValidJediRank(rank)) {
+      return undefined;
+    }
+    
+    return new Jedi(name, rank as JediRank);
+  }
+}
+
+--------------------------------------------------------------------
+
+import { describe, test, expect } from "vitest";
+import { Jedi } from "../src/jedi";
+
+describe("Jedi factory method", () => {
+  test("should create Jedi when rank is valid", () => {
+    const jedi = Jedi.create("Yoda", "Jedi Master");
+    
+    expect(jedi).toBeDefined();
+    expect(jedi?.name).toBe("Yoda");
+    expect(jedi?.rank).toBe("Jedi Master");
+  });
+
+  test("should return undefined when rank is invalid", () => {
+    const jedi = Jedi.create("Yoda", "Invalid Rank");
+    
+    expect(jedi).toBeUndefined();
+  });
+
+  test("should return undefined when rank is empty", () => {
+    const jedi = Jedi.create("Yoda", "");
+    
+    expect(jedi).toBeUndefined();
+  });
+});
+
+}
+
+ */
+
+
+/* 
+
+export class Jedi {
+  constructor(
+    public name: string,
+    public rank: JediRank
+  ) {
+    if (!isValidJediRank(rank)) {
+      throw new Error(`Invalid Jedi rank: ${rank}`);
+    }
+  }
+}
+
+------------------------------------------------------------------------
+
+export class Jedi {
+  constructor(
+    public name: string,
+    public rank: JediRank
+  ) {
+    if (!isValidJediRank(rank)) {
+      throw new Error(`Invalid Jedi rank: ${rank}`);
+    }
+  }
+}
+
+}
+
+*/
